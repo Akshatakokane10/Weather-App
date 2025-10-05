@@ -73,4 +73,9 @@ This project uses manual testing via the browser interface.
 | **Forecast Logic** | Aggregates 3-hour OWM forecast data into daily summaries. | Required since OWM’s free tier provides data in 3-hour intervals.  |
 | **Icons**          | Font Awesome for weather icons.                           | Lightweight and easy to map with OpenWeatherMap’s condition codes. |
 
+## 🖼️ Project Preview
+
+Here’s a screenshot of the Weather-App:
+
+![Weather App Screenshot](assets/screenshot.png)
 
