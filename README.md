@@ -77,5 +77,5 @@ This project uses manual testing via the browser interface.
 
 Here’s a screenshot of the Weather-App:
 
-![Weather App Screenshot](assets/screenshot.png)
+![Weather App Screenshot](assets/Screenshot%202025-10-05%20193644.png))
 
