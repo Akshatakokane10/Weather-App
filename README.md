@@ -32,7 +32,7 @@ Follow these simple steps to set up and run the Weather-App locally.
 ### 🧩 Step 1: Clone the Repository
 
 ``bash
-git clone https://github.com/YOUR_USERNAME/Weather-App.git
+git clone https://github.com/YOUR_USERNAME/Weather-App.git.
 cd Weather-App
 
 🔑 Step 2: Add Your API Key
