@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather App </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="weather-app">
+        <header class="header">
+            <h1 class="logo">Weather&hearts;App</h1>
+            <div class="search-container">
+                <input type="text" id="city-input" placeholder="Enter city name..." autocomplete="off">
+                <button id="search-button"><i class="fas fa-search"></i></button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div id="message-area" class="message-area hidden"></div>
+            <div id="loading-spinner" class="loading-spinner hidden"></div>
+
+            <div id="weather-display" class="weather-display hidden">
+                <div class="current-weather">
+                    <div class="temp-section">
+                        <i id="weather-icon" class="fas fa-sun weather-icon"></i>
+                        <div class="temperature">
+                            <span id="current-temp">--</span><span class="unit">°C</span>
+                        </div>
+                    </div>
+                    <div class="details-section">
+                        <p id="city-name" class="city-name">Konotop, Sumy region</p>
+                        <p id="weather-condition" class="condition">Sunny</p>
+                        <p id="feels-like" class="feels-like">Feels like --°C</p>
+                        <hr>
+                        <p>Humidity: <span id="humidity">--</span>%</p>
+                        <p>Wind Speed: <span id="wind-speed">--</span> m/s</p>
+                        <p>Pressure: <span id="pressure">--</span> hPa</p>
+                    </div>
+                </div>
+
+                <div class="forecast-section">
+                    <h2>5-Day Forecast</h2>
+                    <div id="forecast-container" class="forecast-container">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
